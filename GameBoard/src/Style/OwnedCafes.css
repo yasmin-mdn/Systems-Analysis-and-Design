@@ -1,0 +1,19 @@
+
+p{
+    color: white;
+}
+
+.mycafe_container{
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.photocafe{
+    max-height: 20vh;
+}
+.button:hover .text_button{
+    visibility: visible;
+     opacity: 1;
+}
+
+ 

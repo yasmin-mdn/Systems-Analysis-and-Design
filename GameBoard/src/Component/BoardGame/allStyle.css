@@ -1,0 +1,29 @@
+.firstLay{
+    min-height: 100vh
+}
+.firstSider{
+    background: 
+    #626c74;
+}
+.side-menu{
+    position: sticky;
+    top:-20px;
+    background-color: #212121;
+}
+.edit-pro{
+    height:55px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.site-layout{
+    background: #dfe8e8;
+    margin: 0 0;
+    
+}
+.site-layout-background{
+    height: 100px;
+     font-Size: 60px;
+}
+.footer{
+    text-align: center;
+}

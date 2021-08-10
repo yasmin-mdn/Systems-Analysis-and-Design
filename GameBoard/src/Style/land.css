@@ -1,0 +1,138 @@
+.header{
+    text-align: center;
+   margin-top: 15%;
+   margin-left: 10%;
+   display: block;
+}
+.gradient_text{
+    background: red;
+    background: -webkit-linear-gradient(left,red, orange , yellow );
+    background: -o-linear-gradient(right,red, orange, yellow );
+    background: -moz-linear-gradient(right,red, orange, yellow);
+    background: linear-gradient(to right,red, orange , yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20vw;
+  }
+  
+ 
+    
+.dice1 {
+
+  position: relative;
+  animation: myfirst 12s infinite;
+  filter: grayscale(100%);
+}
+.dice2 {
+
+  position: relative;
+  animation: mysecond 10s infinite;
+  filter: grayscale(100%);
+}
+.dice3{
+
+    position: relative;
+    animation: mythird 8s infinite;
+    filter: grayscale(100%);
+  }
+@keyframes myfirst {
+  from {
+    top: -220px;
+  }
+  to {
+    top: 1040px;
+  }
+}
+
+@keyframes mysecond {
+    from {
+        top: -220px;
+      }
+      to {
+        top:1000px;
+      }
+}
+
+@keyframes mythird {
+    from {
+        top: -220px;
+      }
+      to {
+        top: 1010px;
+      }
+}
+
+.description{
+    display: block;
+    float: left;
+    margin-top: 8%;
+    margin-left: 10%;
+    }
+.team_back {
+  width: 14%;
+  border-radius: 100%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 1%;
+  position: relative;
+}
+.team_front {
+    width: 13%;
+    border-radius: 100%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1%;
+    position: relative;
+  }
+.back {
+  float: left;
+  margin-left: 34%;
+  margin-bottom: auto;
+}
+.front{
+    float: left;
+    margin-left: 29%;
+    margin-bottom: auto;
+}
+.teamcontainer {
+  text-align: center;
+}
+
+/* Child Text Container */
+.team_back div,.team_front div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.team_back:hover div,.team_front:hover div {
+  width: 50%;
+  height: 50%;
+  border-radius: 10% 0 100% 0;
+  padding: 0 5%;
+  margin-right: -33%;
+  visibility: visible;
+  opacity: 0.7;
+  font-size: 10px;
+}
+.social{
+    background-color: #333;
+    float: left;
+    width: 100%;
+    margin-right: 2.5%;
+    margin-top: 1%;
+    position: relative;
+    display: inline;
+    text-align: center;
+    cursor: pointer;
+  }

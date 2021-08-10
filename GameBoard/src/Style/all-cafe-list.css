@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: #212121;
+}
+.cafelist_container {
+  background-color: #333333;
+  color: #fff;
+  width: 85%;
+  height: 100%;
+  margin: 15% auto;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  box-shadow: 1px 1px 0 1px #626c74;
+  padding: 4% 4%;
+  border-radius: 1.5%;
+  overflow: auto;
+}
+
+.cafe_name{
+margin-left: 10%;
+display: inline;
+font-size: 30px;
+}
+.cafe_img{
+margin-left: 10%;
+border-radius: 3%;
+}
+.cafe_desc{
+  font-size: 15px;
+  display: inline;
+}
+
+.icon{
+ margin-left: 10%;
+  margin-right: 1%;
+  position: relative;
+  top: -0.25em;
+}

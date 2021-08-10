@@ -1,0 +1,43 @@
+
+ .body , html {
+    height: 100%;
+  }
+  ::placeholder {
+    color: rgb(54, 50, 50);
+    opacity: 0.85;
+  }
+  [required]::-webkit-input-placeholder { 
+    color: rgb(54, 50, 50);
+    opacity: 0.85;
+  }
+  [required]::-moz-placeholder { 
+    color: rgb(163, 82, 82);
+    opacity: 0.85;
+  }
+  [required]::-ms-input-placeholder {
+    color: rgb(54, 50, 50);
+    opacity: 0.85;
+  }
+  
+   .addPlay_container{
+     background-color:#333333 !important ;
+    width: 28%;
+    height: 20%;
+     margin: 15% auto ;
+     margin-top: 2% ;
+     margin-bottom: 2%;
+     border: white;
+    padding:4% 4% ;
+    border-radius: 1.5%;
+    
+  
+   }
+   
+   .addbutton{
+     background: "yellow";
+     width: 100%;
+    
+   }
+ 
+  
+  

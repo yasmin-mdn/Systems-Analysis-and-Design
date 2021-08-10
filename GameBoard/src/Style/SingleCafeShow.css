@@ -1,0 +1,106 @@
+.SingleCafeShow_container{
+    background-color: #333333;
+    max-width: 60%;
+    max-height: 200%;
+    border: 1px solid #333333;
+    margin-top: 2%;
+    margin-left: 20%;
+    border-radius: 0.5%;
+    
+}
+.Gallery{
+max-width: 100%;
+max-height: 100%;
+margin-left: 5%;
+margin-top: 2%;
+}
+.photo{
+    max-height: 200px;
+}
+.cafe_info{
+    color: #ffffff;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+    margin-top: 2%;
+    
+}
+.cafe_icon{
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+    top: -0.2em;
+}
+.map{
+    max-width: 98%;
+    max-height: 100px;
+    height: 20%;
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+}
+
+
+h2{
+    margin-left: 1.7%;
+    color: #ffffff;
+    
+}
+
+p{
+    font-size: small;
+}
+.carousel_container{
+    width: 95%;
+    margin-left: -2%;
+    margin-top: 5%;
+   
+
+}
+.cards
+{
+   
+    display: block;
+    float: left;
+    border-radius: 1%;
+  
+}
+.scroll
+{   max-height: 200px;
+    overflow: scroll;
+background-color: #414141;}
+.txt{
+   margin-left: auto;
+   margin-top: auto;
+}
+.card_img
+{
+  height: 100px;
+  width: 96%;
+  margin: 2%;
+}
+.cafe_desc_container{
+    margin-top: 7%;
+    width: 100%;
+    padding-top:3%;
+    padding-bottom:1%;
+    background-color: #414141;
+}
+.game_card:hover .game_meta{
+    visibility: visible;
+     opacity: 0.8;
+}
+
+.meta_text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
